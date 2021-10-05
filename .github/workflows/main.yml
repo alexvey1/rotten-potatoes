@@ -25,5 +25,5 @@ jobs:
           #file: Dockerfile
           push: true
           tags: |
-            alexvey/rotten-potatoes:0.0.1
+            alexvey/rotten-potatoes:latest
             alexvey/rotten-potatoes:${{ github.run_number }}
