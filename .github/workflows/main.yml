@@ -25,5 +25,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            alexvey1/rotten-potatoes:0.0.1
-            alexvey1/rotten-potatoes:${{ github.run_number }}
+            alexvey/rotten-potatoes:0.0.1
+            alexvey/rotten-potatoes:${{ github.run_number }}
